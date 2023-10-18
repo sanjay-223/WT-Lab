@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form id="registrationForm" method="post" action="success.php">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" onkeyup="checkUsernameAvailability()">
+        <span id="availability"></span>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html> 

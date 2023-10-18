@@ -1,0 +1,13 @@
+<web-app>  
+  
+<servlet>  
+<servlet-name>xmlparser</servlet-name>  
+<servlet-class>xmlparser</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>xmlparser</servlet-name>  
+<url-pattern>/xmlparser</url-pattern>  
+</servlet-mapping>  
+  
+</web-app>  
